@@ -1,0 +1,50 @@
+body{
+    font-family: 'Inter', sans-serif;
+            margin: 0; /* Remove a margem padrão do body */
+            padding: 0; /* Remove o padding padrão do body */
+            box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura/altura */
+            background-color: #E8E6C2 /* Cor de fundo suave para o corpo */
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, #28A05B, #043D1C);
+    text-align: center;
+     min-height: 30vh;
+     width: 100%;
+}
+
+header > h1{
+    margin: 0px auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+header > p{
+    margin: 20px;
+}
+
+nav{
+    text-align: left    ;
+    padding: auto;
+    margin: auto auto;
+}
+
+header>nav>a{
+    color: white;
+}
+
+main{
+    background-color: #ffffff; /* Fundo branco */
+            max-width: 800px; /* Largura máxima para o contêiner */
+            margin: 0px auto; /* Margem superior/inferior e centralização horizontal */
+            padding: 2rem; /* Espaçamento interno */
+            text-align: justify;
+}
+
+p>a{
+    background-color: #8BE7B0;
+    color: green;
+}
+
